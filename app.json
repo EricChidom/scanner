@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Airtime Barcode Scanner",
+    "description": "A Barcode scanner to load recharge cards.",
+    "slug": "scanner",
+    "privacy": "public",
+    "sdkVersion": "25.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.barcode.scanner"
+    },
+    "android": {
+      "package": "com.barcode.scanner"
+    }
+  }
+}

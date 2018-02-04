@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "eslint": "^4.16.0",
+    "expo": "^25.0.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native-immediate-phone-call": "^1.0.0",
+    "react-native-phone-call": "^1.0.4",
+    "react-navigation": "^1.0.0-beta.27",
+    "react-test-renderer": "^16.2.0",
+    "toggle-switch-react-native": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "jest-expo": "^25.0.0"
+  },
+  "name": "scanner",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null
+}
