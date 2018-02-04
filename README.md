@@ -11,5 +11,9 @@ You can watch this video https://www.youtube.com/watch?v=IQI9aUlouMI for a more 
 3. Download the `expo` app on the device you want to test the barcode-scanner app with
 4. Click on the share button on the `expo xde` and scan the bar code with the mobile
 
+## Building for IOS and Android
+1. For Android: exp build:android
+2. For IOS: exp build:ios 
+
 ## Tests
 run `npm test`
